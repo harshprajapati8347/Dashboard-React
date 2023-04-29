@@ -1,14 +1,10 @@
 import "./featuredInfo.css";
-import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
+import { ArrowUpward } from "@mui/icons-material";
 import Chart from "../chart/Chart";
 import {
   Bar,
   BarChart,
-  CartesianGrid,
-  Legend,
   Tooltip,
-  XAxis,
-  YAxis,
 } from "recharts";
 import { barChartData, userChartData } from "../sidebar/sidebarData";
 import { FormControl, LinearProgress, MenuItem, Select } from "@mui/material";

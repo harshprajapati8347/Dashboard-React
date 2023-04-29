@@ -2,7 +2,6 @@ import "./chart.css";
 import {
   LineChart,
   Line,
-  XAxis,
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
