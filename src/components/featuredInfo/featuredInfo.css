@@ -1,0 +1,141 @@
+.featuredContainer{
+    display: flex;
+    margin-right: 50px;
+}
+
+.featured {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 10px 0;
+  padding: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  background-color: white;
+
+}
+
+.featuredItemData{
+    display: flex;
+    align-items: center;
+}
+
+.dataRatio{
+    margin-top: 30px;
+}
+
+.dataItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredTitle{
+    font-size: 20px;
+}
+
+.featuredMoneyContainer{
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.featuredMoneyRate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;    
+    border: 0.5px solid lightgray;
+    color: #3bb077;
+    background-color: #e5faf2;    
+    border-radius: 500px;
+    padding: 4px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.featuredIcon.negative{
+    color: red;
+}
+
+.featuredIcon.positive{
+    color: green;
+}
+
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+
+.linearProgress{
+    margin: 10px 0;
+}
+
+.box1Values{
+    display: flex;
+    align-items: center;
+    border: 0.7px solid lightgray;
+    border-radius: 10px;
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.topContainer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid lightgray;
+    justify-content: space-between;
+}
+
+.topSelect{
+    padding-right: 10px;
+}
+
+.topSecondContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+  height: 70px;
+  width: 180px;
+  margin: 15px 10px;
+  padding: 15px 10px 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0.5px solid lightgray;
+}
+
+.box1Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1Values{
+    display: flex;
+    flex-direction: column;
+}
+
